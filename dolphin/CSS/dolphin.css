@@ -1,0 +1,70 @@
+*{
+    border-radius: 5%;
+}
+.smartphone{
+  height: 640px;
+width:400px;
+border:10px solid black;
+border-radius: 5%;
+}
+
+#phoneheader{
+    height:80px;
+    background-color:blue;
+    margin:-2px;
+}
+#accentcolor, #textcolor
+{
+    height:50px;
+    width:50px;
+}
+#headerimageloc
+{
+    
+    float:left;
+    height:60px;
+    width:60px;
+    border-radius: 100%;
+    background-color: black;
+}
+#headertextloc
+{
+   float:left ;
+   margin-top: 13px;
+   margin-left: 20px;
+}
+.mscontainer {
+    border: 2px solid rgb(171, 175, 228);
+    background-color: rgb(171, 175, 228);;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .darker {
+    border-color: blue;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .mscontainer::after, .darker::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .mscontainer img, .darker img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .mscontainer img.right, .darker img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
